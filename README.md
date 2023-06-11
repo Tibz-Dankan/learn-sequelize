@@ -40,6 +40,6 @@ npx sequelize-cli db:migrate:undo:all
 
 > You can also revert back to a specific migration by passing its name with the `--to` option
 
-The above information from official sequelize docs
+The above information was obtained from official sequelize docs
 
 > https://sequelize.org/docs/v6/other-topics/migrations/

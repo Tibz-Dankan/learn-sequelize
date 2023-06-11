@@ -17,7 +17,7 @@ npx sequelize-cli init
 create a new database if it does not exist
 
 ```.sh
- db:create
+ npx sequelize-cli db:create
 ```
 
 run migrations

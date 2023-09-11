@@ -38,6 +38,14 @@ undo all migrations
 npx sequelize-cli db:migrate:undo:all
 ```
 
+add new migration file
+
+```.sh
+
+npx sequelize-cli migration:generate --name rename-users-table
+
+```
+
 > You can also revert back to a specific migration by passing its name with the `--to` option
 
 The above information was obtained from official sequelize docs

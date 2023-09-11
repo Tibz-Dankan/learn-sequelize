@@ -38,6 +38,12 @@ undo all migrations
 npx sequelize-cli db:migrate:undo:all
 ```
 
+undo upto specific migration
+
+```.sh
+npx sequelize-cli db:migrate:undo:all --to XXXXXXXXXXXXXX-create-posts.js
+```
+
 add new migration file
 
 ```.sh
